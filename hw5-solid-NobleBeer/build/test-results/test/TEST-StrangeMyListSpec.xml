@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StrangeMyListSpec" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-11-11T23:20:18" hostname="LAPTOP-FLS8LGSG" time="0.379">
+  <properties/>
+  <testcase name="1: check empty size array" classname="StrangeMyListSpec" time="0.325"/>
+  <testcase name="2: check toArray of empty array" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="4: check add not even element into list and size eq 0" classname="StrangeMyListSpec" time="0.033"/>
+  <testcase name="5: check add even element into list and size eq 1" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="6: check add not even element into list and toArray is correct" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="7: check add even element into list and toArray is correct" classname="StrangeMyListSpec" time="0.004"/>
+  <testcase name="8: check add element into list and get method is correct" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="9: check insert method for even element" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="10: check insert method for not even element" classname="StrangeMyListSpec" time="0.002"/>
+  <testcase name="11: check delete method for not dividing 3 and 5 element" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="12: check delete method for dividing 5 element" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="13: check delete method for dividing 3 element" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="14: check add first method for not even" classname="StrangeMyListSpec" time="0.001"/>
+  <testcase name="15: check add first method for even" classname="StrangeMyListSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Task2RohmbSpec" tests="14" skipped="0" failures="1" errors="0" timestamp="2022-10-11T09:27:29" hostname="LAPTOP-FLS8LGSG" time="0.598">
+  <properties/>
+  <testcase name="2: rectangle; check area [a: 0, b: 0, expectedArea: 0, #0]" classname="Task2RohmbSpec" time="0.184"/>
+  <testcase name="2: rectangle; check area [a: 0, b: 1, expectedArea: 0, #1]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: rectangle; check area [a: 1, b: 0, expectedArea: 0, #2]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: rectangle; check area [a: 1, b: 1, expectedArea: 0.5, #3]" classname="Task2RohmbSpec" time="0.0"/>
+  <testcase name="2: rectangle; check area [a: 2, b: 1, expectedArea: 1, #4]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: rectangle; check area [a: 2, b: 2, expectedArea: 2, #5]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: rectangle; check area [a: 5, b: 8, expectedArea: 20, #6]" classname="Task2RohmbSpec" time="0.0"/>
+  <testcase name="2: square; check area with negative a" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: square; check perimeter [a: 0, b: 0, expectedPerimeter: 0, #0]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: square; check perimeter [a: 1, b: 1, expectedPerimeter: 2.828, #1]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: square; check perimeter [a: 5, b: 3, expectedPerimeter: 11.662, #2]" classname="Task2RohmbSpec" time="0.0"/>
+  <testcase name="2: square; check perimeter [a: 12, b: 10, expectedPerimeter: 31.241, #3]" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: square; check perimeter with negative a" classname="Task2RohmbSpec" time="0.001"/>
+  <testcase name="2: square; check info" classname="Task2RohmbSpec" time="0.389">
+    <failure message="Condition not satisfied:&#10;&#10;rhomb.info() == &quot;ромб с диагоналями 4.0 и 7.0&quot;&#10;|     |      |&#10;|     |      false&#10;|     |      36 differences (23% similarity)&#10;|     |      (Р РѕРјР±) (СЃ) (РґРёР°РіРѕРЅР°Р»СЏРјРё) 4.0 (Рё) 7.0( \n)&#10;|     |      (ромб----) (с-) (диагоналями-----------) 4.0 (и-) 7.0(--~)&#10;|     Р РѕРјР± СЃ РґРёР°РіРѕРЅР°Р»СЏРјРё 4.0 Рё 7.0 &#10;&lt;Rhomb@71aa51af text=Р РѕРјР± СЃ РґРёР°РіРѕРЅР°Р»СЏРјРё a=4.0 b=7.0&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+rhomb.info() == &quot;ромб с диагоналями 4.0 и 7.0&quot;
+|     |      |
+|     |      false
+|     |      36 differences (23% similarity)
+|     |      (Р РѕРјР±) (СЃ) (РґРёР°РіРѕРЅР°Р»СЏРјРё) 4.0 (Рё) 7.0( \n)
+|     |      (ромб----) (с-) (диагоналями-----------) 4.0 (и-) 7.0(--~)
+|     Р РѕРјР± СЃ РґРёР°РіРѕРЅР°Р»СЏРјРё 4.0 Рё 7.0 
+&lt;Rhomb@71aa51af text=Р РѕРјР± СЃ РґРёР°РіРѕРЅР°Р»СЏРјРё a=4.0 b=7.0&gt;
+
+	at Task2RohmbSpec.2: square; check info(Task2RohmbSpec.groovy:72)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
