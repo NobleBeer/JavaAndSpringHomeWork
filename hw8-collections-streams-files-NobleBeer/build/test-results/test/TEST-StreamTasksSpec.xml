@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StreamTasksSpec" tests="28" skipped="0" failures="0" errors="0" timestamp="2023-03-01T18:22:59" hostname="LAPTOP-FLS8LGSG" time="0.28">
+  <properties/>
+  <testcase name="1: sum first 0 numbers" classname="StreamTasksSpec" time="0.143"/>
+  <testcase name="1: sum first 1 numbers" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="1: sum first 2 numbers" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="1: sum first 5 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: sum first 10 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: sum first 100000 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: fails on summing negative numbers [n: -1, #0]" classname="StreamTasksSpec" time="0.066"/>
+  <testcase name="1: fails on summing negative numbers [n: -2, #1]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: fails on summing negative numbers [n: -5, #2]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: fails on summing negative numbers [n: -10, #3]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="1: fails on summing negative numbers [n: -10000, #4]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: sum cubes of first 0 numbers" classname="StreamTasksSpec" time="0.005"/>
+  <testcase name="2: sum cubes of first 1 numbers" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="2: sum cubes of first 2 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: sum cubes of first 3 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: sum cubes of first 5 numbers" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="2: sum cubes of first 10 numbers" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: sum cubes of first 9876 numbers" classname="StreamTasksSpec" time="0.002"/>
+  <testcase name="2: fails on summing cubes of negative numbers [n: -1, #0]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: fails on summing cubes of negative numbers [n: -2, #1]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: fails on summing cubes of negative numbers [n: -5, #2]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: fails on summing cubes of negative numbers [n: -10, #3]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="2: fails on summing cubes of negative numbers [n: -10000, #4]" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="3: should return new list with odd elements [sourceList: [1, 2, 3], expectedList: [1, 3], #0]" classname="StreamTasksSpec" time="0.004"/>
+  <testcase name="3: should return new list with odd elements [sourceList: [1, 3, 5], expectedList: [1, 3, 5], #1]" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="3: should return new list with odd elements [sourceList: [2, 4, 6], expectedList: [], #2]" classname="StreamTasksSpec" time="0.0"/>
+  <testcase name="3: should return new list with odd elements [sourceList: [], expectedList: [], #3]" classname="StreamTasksSpec" time="0.001"/>
+  <testcase name="3: should fail on null input" classname="StreamTasksSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

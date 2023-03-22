@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyBinaryTreeIntegerSpec" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-01-28T22:18:05" hostname="LAPTOP-FLS8LGSG" time="0.432">
+  <properties/>
+  <testcase name="1: check empty size array" classname="MyBinaryTreeIntegerSpec" time="0.308"/>
+  <testcase name="2: check toArray of empty array" classname="MyBinaryTreeIntegerSpec" time="0.026"/>
+  <testcase name="4: check add element into tree and size eq 1" classname="MyBinaryTreeIntegerSpec" time="0.078"/>
+  <testcase name="5: check add element into tree and toArray is correct" classname="MyBinaryTreeIntegerSpec" time="0.001"/>
+  <testcase name="6: check add elements into tree and toArray is correct" classname="MyBinaryTreeIntegerSpec" time="0.001"/>
+  <testcase name="7: check delete method last node" classname="MyBinaryTreeIntegerSpec" time="0.002"/>
+  <testcase name="8: check delete method node with one child" classname="MyBinaryTreeIntegerSpec" time="0.003"/>
+  <testcase name="9: check delete method node with two child" classname="MyBinaryTreeIntegerSpec" time="0.001"/>
+  <testcase name="9: check delete method root" classname="MyBinaryTreeIntegerSpec" time="0.001"/>
+  <testcase name="10: check contains method" classname="MyBinaryTreeIntegerSpec" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
