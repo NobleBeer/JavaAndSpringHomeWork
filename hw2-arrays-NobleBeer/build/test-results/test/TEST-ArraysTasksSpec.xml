@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArraysTasksSpec" tests="22" skipped="0" failures="1" errors="0" timestamp="2022-10-03T14:49:00" hostname="LAPTOP-FLS8LGSG" time="0.988">
+  <properties/>
+  <testcase name="even: should return even numbers" classname="ArraysTasksSpec" time="0.303"/>
+  <testcase name="even: should process one even numbers" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="even: should process empty array" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="even: should process negative numbers" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="allSimilar: should process empty array" classname="ArraysTasksSpec" time="0.03"/>
+  <testcase name="allSimilar: should process array with one element" classname="ArraysTasksSpec" time="0.083"/>
+  <testcase name="allSimilar: should process array with similar elements" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="allSimilar: should process array with not similar elements" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="hasSimilar: should process empty array" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="hasSimilar: should process array with one element" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="hasSimilar: should process array with some similar elements" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="hasSimilar: should process array with not similar elements" classname="ArraysTasksSpec" time="0.461">
+    <failure message="Condition not satisfied:&#10;&#10;ArraysTasks.hasSimilar([1, 2, 3] as int[]) == false&#10;|           |                              |&#10;|           true                           false&#10;class ArraysTasks&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+ArraysTasks.hasSimilar([1, 2, 3] as int[]) == false
+|           |                              |
+|           true                           false
+class ArraysTasks
+
+	at ArraysTasksSpec.hasSimilar: should process array with not similar elements(ArraysTasksSpec.groovy:61)
+</failure>
+  </testcase>
+  <testcase name="mean: should process empty array" classname="ArraysTasksSpec" time="0.081"/>
+  <testcase name="mean: should process array with one element" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="mean: should process array with some elements" classname="ArraysTasksSpec" time="0.001"/>
+  <testcase name="mean: should process array with negative elements" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="shift: should process empty array" classname="ArraysTasksSpec" time="0.002"/>
+  <testcase name="shift: should process array with one element" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="shift: should process array" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="copyShift: process empty array" classname="ArraysTasksSpec" time="0.002"/>
+  <testcase name="copyShift: process array with one element" classname="ArraysTasksSpec" time="0.0"/>
+  <testcase name="copyShift: process array" classname="ArraysTasksSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

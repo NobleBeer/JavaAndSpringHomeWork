@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MatrixSpec" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-12-03T21:40:43" hostname="LAPTOP-FLS8LGSG" time="0.516">
+  <properties/>
+  <testcase name="1: should create matrix by constructor" classname="MatrixSpec" time="0.472"/>
+  <testcase name="2: when we change array from which we create matrix, matrix should stay the same" classname="MatrixSpec" time="0.016"/>
+  <testcase name="3: calc det" classname="MatrixSpec" time="0.003"/>
+  <testcase name="3: calc trace" classname="MatrixSpec" time="0.001"/>
+  <testcase name="4: matrix should not change when we change got array" classname="MatrixSpec" time="0.002"/>
+  <testcase name="7: should add 2 matrix" classname="MatrixSpec" time="0.003"/>
+  <testcase name="8: should mul 2 matrix" classname="MatrixSpec" time="0.003"/>
+  <testcase name="8: should mul 2 matrix again" classname="MatrixSpec" time="0.002"/>
+  <testcase name="9: pow 1 matrix" classname="MatrixSpec" time="0.003"/>
+  <testcase name="9: pow 2 matrix" classname="MatrixSpec" time="0.001"/>
+  <testcase name="9: pow 15 matrix" classname="MatrixSpec" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
