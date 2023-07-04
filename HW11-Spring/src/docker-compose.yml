@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  database:
+    image:
+      "postgres:15.2"
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "mersi"
+      POSTGRES_PASSWORD: "1337"
+    ports:
+      - "7435:5432"
